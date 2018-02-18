@@ -1,0 +1,62 @@
+﻿.backgroundDiv {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: -100;
+}
+
+.backgroundVid {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+@media (min-aspect-ratio: 16/9) {
+    .backgroundVid {
+        height: 300%;
+        top: -100%;
+    }
+}
+
+@media (max-aspect-ratio: 16/9) {
+    .backgroundVid {
+        width: 300%;
+        left: -100%;
+    }
+}
+
+@media (max-width: 767px) {
+    .backgroundDiv {
+        background: url('../bg/backgroundStill.jpg') center center / cover no-repeat;
+    }
+
+    .backgroundVid {
+        display: none;
+    }
+}
+
+.background {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: -100;
+    background: rgba(128, 128, 128, 0.5);
+}
+
+.frame {
+    position: static;
+    padding-top: 150px;
+    padding-bottom: 400px;
+    margin: auto;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.75);
+    z-index: -50;
+}

@@ -1,0 +1,39 @@
+body{
+    font-family:Calibri;
+    background: lightgrey;
+}
+
+.content {
+    width: 100%;
+    margin: auto;
+    position:absolute;
+    top:64px;
+}
+
+.slogan {
+    color: white;
+    text-align: center;
+    font-size: 250%;
+    text-shadow: 0px 3px 1px black;
+}
+
+.search {
+    font-size:24px;
+    text-align:center;
+    width: 100%;
+    margin: auto;
+    position: absolute;
+    top: 200px;
+}
+
+.addressSearch {
+    width: 300px;
+    height: 50px;
+    vertical-align: middle;
+}
+
+.price {
+    width: 100px;
+    height: 50px;
+    vertical-align:middle;
+}
