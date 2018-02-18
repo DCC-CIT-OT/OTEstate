@@ -27,7 +27,7 @@
 </div>
 <div class="search">
     <input class="addressSearch" type="text" name="address"><br /><br />
-    Price: <input class="price" placeholder="min" type="text" name="priceMin"> - <input class="price" placeholder="min" type="text" name="priceMax">
+    Price: <input class="price" placeholder="Min" type="select" name="priceMin"> - <input class="price" placeholder="Min" type="select" name="priceMax">
 </div>
 
 <!--Background-->
